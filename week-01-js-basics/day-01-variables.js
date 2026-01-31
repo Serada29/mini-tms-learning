@@ -1,9 +1,18 @@
-const driverName = "Rex";
-let tripsCompleted = 0;
-let isAvailable = true;
+// Day 1 - Variables & State
 
-tripsCompleted += 1;
+const truckId = "TRK-001";
+let truckStatus = "IDLE";
+let totalTrips = 0;
 
-console.log("Driver: ", driverName);
-console.log("Trips Completed : ", tripsCompleted);
-console.log("Available: ", isAvailable);
+console.log("Truck : ", truckId);
+console.log("Status : ", truckStatus);
+console.log("Trips : ", totalTrips);
+
+//  simulate a dispatch
+
+truckStatus = "ON_ROUTE";
+totalTrips = totalTrips + 1;
+
+console.log("------- AFTER DISPATCH -------");
+console.log("Status : ", truckStatus);
+console.log("Trips : ", totalTrips);
