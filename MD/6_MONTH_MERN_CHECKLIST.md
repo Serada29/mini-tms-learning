@@ -16,8 +16,9 @@
 
 # [ ] Operators (arithmetic, comparison, logical)
 
-- [ ] Type coercion & truthy / falsy
-- [ ] Console debugging
+# [ ] Type coercion & truthy / falsy
+
+# [ ] Console debugging
 
 ### Control Flow
 
